@@ -1,3 +1,8 @@
 Hello world!!!
+= controller.class.ancestors
+
+= form_for @message, :url => messages_path do |f|
+  = f.text_field :content
+
 = link_to 'message path', messages_path
 = link_to 'message url', messages_url
