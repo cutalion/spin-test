@@ -24,7 +24,7 @@ end
 gem 'jquery-rails'
 
 
-group :tast do
+group :test do
   gem 'spin'
   gem 'rspec-rails'
 end
